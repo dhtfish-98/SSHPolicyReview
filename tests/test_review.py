@@ -7,7 +7,7 @@ class SSHTests(unittest.TestCase):
         self.assertEqual({x["rule"] for x in review_text("PermitRootLogin yes\nPasswordAuthentication yes\n")}, {"permitrootlogin", "passwordauthentication"})
 
     def test_first_global_and_match_scope(self):
-        self.assertEqual(review_text("PermitRootLogin no\nPermitRootLogin yes\nMatch User guest\nPasswordAuthentication yes\n"), [])
+        self.assertEqual({x["rule"] for x in review_text("PermitRootLogin no\nPermitRootLogin yes\nMatch User guest\nPasswordAuthentication yes\n")}, {"match-scope-review", "passwordauthentication"})
 
     def test_invalid_directive(self):
         with self.assertRaises(ValueError):
