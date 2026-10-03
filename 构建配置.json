@@ -1,0 +1,30 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "SSHPolicyReview",
+  "author": "dhtfish98",
+  "kind": "manual",
+  "base_public_commit": "0ad5c5fb2db2b66acc756bc970e6c8683642f00c",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "61cc81f0067016c9425160ac683a0791c1f9332a48ffe655d21b2602286e21be"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "93737f9ad98294e1b3028d2db773d0bf4c8c4e52228fa87a92750a08035f5acf"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "0af495975c845c54de65cd5e146a913eb8fd65d0eb2bbde3ad89deaf6e245789"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "e5dcb29a6f8e57ee28207fe84e0df40f712cfe4cdaeb541e234b97f186142923"
+    }
+  ],
+  "platform_entries": []
+}
