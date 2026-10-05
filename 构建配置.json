@@ -18,7 +18,7 @@
     {
       "original": "README.md",
       "stored": "项目文档/README.md",
-      "sha256": "0af495975c845c54de65cd5e146a913eb8fd65d0eb2bbde3ad89deaf6e245789"
+      "sha256": "d021e2f21e60de5e9c0e5bb6ce1667e5a62803bd09370c67039c70c4ab2786d9"
     },
     {
       "original": "VALIDATION.md",
@@ -26,5 +26,6 @@
       "sha256": "e5dcb29a6f8e57ee28207fe84e0df40f712cfe4cdaeb541e234b97f186142923"
     }
   ],
-  "platform_entries": []
+  "platform_entries": [],
+  "version": "0.1.0"
 }
